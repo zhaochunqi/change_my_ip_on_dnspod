@@ -6,6 +6,7 @@
 ![http://harchiko.qiniudn.com/Screen%20Shot%202016-04-12%20at%203.43.44%20PM.png](http://harchiko.qiniudn.com/Screen%20Shot%202016-04-12%20at%203.43.44%20PM.png)
 
 注意 `login_token`是 id,token 的形式。
+
 2. 获取`Domain_id`
 在xxxx处填上上一步获取到的token
 ```bash
