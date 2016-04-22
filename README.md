@@ -18,7 +18,7 @@ curl -X POST https://dnsapi.cn/Domain.List -d 'login_token=xxxx&format=json' | p
 curl -X POST https://dnsapi.cn/Record.List -d 'login_token=xxxx&format=json&domain_id=yyyy'|python -m json.tool
 ```
 
-4. 将这几个变量值填到shell脚本中，设置定时任务，建议20分/
+4. 将这几个变量值填到shell脚本中，设置定时任务，建议20分(dnspod API 有限制)
 
 ## Licence
 ```
